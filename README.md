@@ -7,6 +7,7 @@
     需要在4天时间内用不超过800万部计算来训练AI以找到Minecraft游戏中的钻石。提交的内容必须在不依赖于人类领域知识的情况下训练机器学习模型。参与者可以使用提供的人类演示的MineRL-v0数据集，但不能使用外部数据集。
 
 三.关于Minecraft（我的世界）如何获取钻石的流程：
+
 ![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/%E7%90%86%E8%AE%BA%E5%85%AC%E5%BC%8F%E5%8F%8A%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B/%E5%AF%BB%E6%89%BE%E9%92%BB%E7%9F%B3%E6%B5%81%E7%A8%8B.png)
     以前本人并未接触过Minecraft这款游戏，为了这次作业特别游玩了十几小时。通过个人游戏经验可知，在游戏中随即重生的情况下，要获得钻石需要经过以下步骤：
         1.徒手采集木头
@@ -33,14 +34,17 @@
         2.进行N步更新。
         3.重要性采样及PPO网络的更新学习。
     以下为PPO算法流程实现图：
+    
 ![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/%E7%90%86%E8%AE%BA%E5%85%AC%E5%BC%8F%E5%8F%8A%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B/PPO%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 六.Rainbow模型的个人理解：
     Rainbow将深度Q神经网络（DQN）中异策略算法Q-Learning与卷积神经网络作为函数逼近器相结合，将原始像素映射到动作价值函数里。价值分布强化学习提出了一种通过 C51 算法预测可能值函数 bin 上的分布技术。Rainbow 将上述所有技术组合在单一的异策略算法中，用以实现 Atari 基准的最新 Sample Efficiency。此外，Rainbow 还使用了多步回报。
     以下为Rainbow模型与不同模型的得分差异：
+    
 ![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/%E7%90%86%E8%AE%BA%E5%85%AC%E5%BC%8F%E5%8F%8A%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B/Rainbow%E7%AD%89%E6%A8%A1%E5%9E%8B%E5%BE%97%E5%88%86.png)
 
 七.运行结果及竞赛官方实验结果：
+
     ![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/Result/PPO_Snapshot_Result.png)
 
     竞赛官方结果为：
@@ -59,14 +63,12 @@
         PPO: best_score: 87.82769563049078 +- 59.455629216295144 ("+-" denotes standard deviation) 
         DDDQN: best_score: 59.134177452623845 +- 52.43237430511946 ("+-" denotes standard deviation)
 
-    最终结果，请指导老师以https://github.com/Kether-Jechidah/HW9为准，谢谢！
-
 八.个人总结：
     本次作业未能找到队友一起且做完成，主要由于平时未在社区内积极交流，以至于组队时问了2位同学都表示已有队伍。由于交流沟通不到位，导致作业中很多头痛的问题不得不硬着头皮攻克。以后需要多多加强沟通交流，善于团队协作。
     最后，感谢指导老师给予的指导，在微信群等交流渠道不厌其烦的答疑。同时感谢老师的批阅，不足之处，请多多指正，谢谢！
 
 九.参考文献：
-1.MineRL A Large-Scale Dataset of Minecraft Demonstrations
-2.NeurIPS 2019 Competition The MineRL Competition on Sample Efficient Reinforcement Learning using Human Priors
-3.Rainbow Combining Improvements in Deep Reinforcement Learning
-4.Rainbow Combining Improvements in Deep Reinforcement Learning
+    1.MineRL A Large-Scale Dataset of Minecraft Demonstrations
+    2.NeurIPS 2019 Competition The MineRL Competition on Sample Efficient Reinforcement Learning using Human Priors
+    3.Rainbow Combining Improvements in Deep Reinforcement Learning
+    4.Rainbow Combining Improvements in Deep Reinforcement Learning
