@@ -59,8 +59,8 @@
 ![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/Result/PPO_Snapshot_Result.png)
 
 　　竞赛官方结果为：
-　　
-　　MineRLNavigate-v0.txt Rainbow: 　
+  
+  　　MineRLNavigate-v0.txt Rainbow: 　
   　　best_score: 13.0 +- 33.63034344160047 ("+-" denotes standard deviation) 
       PPO: best_score: 8.0 +- 27.129319932501073 ("+-" denotes standard deviation) 
       DDDQN: best_score: 4.0 +- 19.595917942265423 ("+-" denotes standard deviation)
@@ -86,6 +86,6 @@
   
 　　2.NeurIPS 2019 Competition The MineRL Competition on Sample Efficient Reinforcement Learning using Human Priors
    
-   3.Rainbow Combining Improvements in Deep Reinforcement Learning
+　　3.Rainbow Combining Improvements in Deep Reinforcement Learning
    
-   4.Rainbow Combining Improvements in Deep Reinforcement Learning
+　　4.Rainbow Combining Improvements in Deep Reinforcement Learning
