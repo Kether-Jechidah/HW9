@@ -60,6 +60,8 @@
 
 七.运行结果及竞赛官方实验结果：
 
+　　运行结果为：
+
 ![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/Result/PPO_Snapshot_Result.png)
 
 　　竞赛官方结果为：
