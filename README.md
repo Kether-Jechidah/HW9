@@ -84,8 +84,8 @@
 
 　　1.MineRL A Large-Scale Dataset of Minecraft Demonstrations
   
-  　2.NeurIPS 2019 Competition The MineRL Competition on Sample Efficient Reinforcement Learning using Human Priors
+　　2.NeurIPS 2019 Competition The MineRL Competition on Sample Efficient Reinforcement Learning using Human Priors
    
-  　3.Rainbow Combining Improvements in Deep Reinforcement Learning
+   3.Rainbow Combining Improvements in Deep Reinforcement Learning
    
-    4.Rainbow Combining Improvements in Deep Reinforcement Learning
+   4.Rainbow Combining Improvements in Deep Reinforcement Learning
