@@ -10,7 +10,7 @@
 
 三.关于Minecraft（我的世界）如何获取钻石的流程：
 
-![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/%E7%90%86%E8%AE%BA%E5%85%AC%E5%BC%8F%E5%8F%8A%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B/%E5%AF%BB%E6%89%BE%E9%92%BB%E7%9F%B3%E6%B5%81%E7%A8%8B.png)
+　　　![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/%E7%90%86%E8%AE%BA%E5%85%AC%E5%BC%8F%E5%8F%8A%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B/%E5%AF%BB%E6%89%BE%E9%92%BB%E7%9F%B3%E6%B5%81%E7%A8%8B.png)
    
 　　以前本人并未接触过Minecraft这款游戏，为了这次作业特别游玩了十几小时。通过个人游戏经验可知，在游戏中随即重生的情况下，要获得钻石需要经过以下步骤：　　　　
   
@@ -44,7 +44,7 @@
   
 　　以下为PPO算法流程实现图：
     
-![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/%E7%90%86%E8%AE%BA%E5%85%AC%E5%BC%8F%E5%8F%8A%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B/PPO%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+　　　![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/%E7%90%86%E8%AE%BA%E5%85%AC%E5%BC%8F%E5%8F%8A%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B/PPO%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 六.Rainbow模型的个人理解：
 
