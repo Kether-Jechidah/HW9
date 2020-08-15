@@ -16,15 +16,15 @@
    
    1.徒手采集木头
    2.制造工作台
-        3.通过工作台制造木镐
-        4.使用木镐采集石材
-        5.通过工具台制作石镐
-        6.采集铁矿及煤矿
-        7.制造熔炉
-        8.将铁矿作为原料，煤矿作为燃料放入熔炉，将铁矿练成铁锭
-        9.通过工作台制作铁镐
-        10.在水平面下0-15层挖掘以寻找钻石矿
-        11.采集钻石
+   3.通过工作台制造木镐
+   4.使用木镐采集石材
+   5.通过工具台制作石镐
+   6.采集铁矿及煤矿
+   7.制造熔炉
+   8.将铁矿作为原料，煤矿作为燃料放入熔炉，将铁矿练成铁锭
+   9.通过工作台制作铁镐
+   10.在水平面下0-15层挖掘以寻找钻石矿
+   11.采集钻石
 
 四.运行环境搭建及遇到的困难与自身总结：
 
@@ -37,22 +37,26 @@
    PPO算法是一种新型的Policy Gradient算法，Policy Gradient算法对步长十分敏感，但是又难以选择合适的步长，在训练过程中新旧策略的变化差异如果过大则不利于学习。PPO算法提出了新的目标函数可以再多个训练步骤实现小批量的更新，解决了Policy Gradient算法步长难以确定的问题。
   
   PPO有三点主要知识点：
-        1.用网络求解连续动作问题。
-        2.进行N步更新。
-        3.重要性采样及PPO网络的更新学习。       
-    以下为PPO算法流程实现图：
+  
+   1.用网络求解连续动作问题。
+   2.进行N步更新。
+   3.重要性采样及PPO网络的更新学习。       
+   
+  以下为PPO算法流程实现图：
     
 ![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/%E7%90%86%E8%AE%BA%E5%85%AC%E5%BC%8F%E5%8F%8A%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B/PPO%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 六.Rainbow模型的个人理解：
-    Rainbow将深度Q神经网络（DQN）中异策略算法Q-Learning与卷积神经网络作为函数逼近器相结合，将原始像素映射到动作价值函数里。价值分布强化学习提出了一种通过 C51 算法预测可能值函数 bin 上的分布技术。Rainbow 将上述所有技术组合在单一的异策略算法中，用以实现 Atari 基准的最新 Sample Efficiency。此外，Rainbow 还使用了多步回报。 
-    以下为Rainbow模型与不同模型的得分差异：
+
+   Rainbow将深度Q神经网络（DQN）中异策略算法Q-Learning与卷积神经网络作为函数逼近器相结合，将原始像素映射到动作价值函数里。价值分布强化学习提出了一种通过 C51 算法预测可能值函数 bin 上的分布技术。Rainbow 将上述所有技术组合在单一的异策略算法中，用以实现 Atari 基准的最新 Sample Efficiency。此外，Rainbow 还使用了多步回报。 
+    
+   以下为Rainbow模型与不同模型的得分差异：
     
 ![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/%E7%90%86%E8%AE%BA%E5%85%AC%E5%BC%8F%E5%8F%8A%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B/Rainbow%E7%AD%89%E6%A8%A1%E5%9E%8B%E5%BE%97%E5%88%86.png)
 
 七.运行结果及竞赛官方实验结果：
 
-    ![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/Result/PPO_Snapshot_Result.png)
+   ![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/Result/PPO_Snapshot_Result.png)
    
    竞赛官方结果为：
     MineRLNavigate-v0.txt Rainbow: 
@@ -76,7 +80,8 @@
     最后，感谢指导老师给予的指导，在微信群等交流渠道不厌其烦的答疑。同时感谢老师的批阅，不足之处，请多多指正，谢谢！
 
 九.参考文献：
-    1.MineRL A Large-Scale Dataset of Minecraft Demonstrations
-    2.NeurIPS 2019 Competition The MineRL Competition on Sample Efficient Reinforcement Learning using Human Priors
-    3.Rainbow Combining Improvements in Deep Reinforcement Learning
-    4.Rainbow Combining Improvements in Deep Reinforcement Learning
+
+   1.MineRL A Large-Scale Dataset of Minecraft Demonstrations
+   2.NeurIPS 2019 Competition The MineRL Competition on Sample Efficient Reinforcement Learning using Human Priors
+   3.Rainbow Combining Improvements in Deep Reinforcement Learning
+   4.Rainbow Combining Improvements in Deep Reinforcement Learning
