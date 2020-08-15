@@ -59,20 +59,21 @@
 ![Alt text](https://github.com/Kether-Jechidah/HW9/blob/master/Result/PPO_Snapshot_Result.png)
 
 　　竞赛官方结果为：
-  　　MineRLNavigate-v0.txt Rainbow: 　
-        best_score: 13.0 +- 33.63034344160047 ("+-" denotes standard deviation) 
-        PPO: best_score: 8.0 +- 27.129319932501073 ("+-" denotes standard deviation) 
-        DDDQN: best_score: 4.0 +- 19.595917942265423 ("+-" denotes standard deviation)
+　　
+　　MineRLNavigate-v0.txt Rainbow: 　
+  　　best_score: 13.0 +- 33.63034344160047 ("+-" denotes standard deviation) 
+      PPO: best_score: 8.0 +- 27.129319932501073 ("+-" denotes standard deviation) 
+      DDDQN: best_score: 4.0 +- 19.595917942265423 ("+-" denotes standard deviation)
 
-　　　MineRLTreechop-v0.txt Rainbow:
-        best_score: 62.44 +- 2.7434285119171578 ("+-" denotes standard deviation) 
-        PPO: best_score: 56.31 +- 8.306256677950662 ("+-" denotes standard deviation) 
-        DDDQN: best_score: 5.28 +- 2.867333255831976 ("+-" denotes standard deviation)
+　　MineRLTreechop-v0.txt Rainbow:
+      best_score: 62.44 +- 2.7434285119171578 ("+-" denotes standard deviation) 
+      PPO: best_score: 56.31 +- 8.306256677950662 ("+-" denotes standard deviation) 
+      DDDQN: best_score: 5.28 +- 2.867333255831976 ("+-" denotes standard deviation)
 
-　　　MineRLNavigateDense-v0.txt Rainbow: 　
-        best_score: 66.89166902255266 +- 41.23925514895555 ("+-" denotes standard deviation)           　 
-        PPO: best_score: 87.82769563049078 +- 59.455629216295144 ("+-" denotes standard deviation) 
-        DDDQN: best_score: 59.134177452623845 +- 52.43237430511946 ("+-" denotes standard deviation)
+　　MineRLNavigateDense-v0.txt Rainbow: 　
+      best_score: 66.89166902255266 +- 41.23925514895555 ("+-" denotes standard deviation)           　 
+      PPO: best_score: 87.82769563049078 +- 59.455629216295144 ("+-" denotes standard deviation) 
+      DDDQN: best_score: 59.134177452623845 +- 52.43237430511946 ("+-" denotes standard deviation)
 
 八.个人总结：
 
@@ -81,7 +82,10 @@
 
 九.参考文献：
 
-   1.MineRL A Large-Scale Dataset of Minecraft Demonstrations
-   2.NeurIPS 2019 Competition The MineRL Competition on Sample Efficient Reinforcement Learning using Human Priors
-   3.Rainbow Combining Improvements in Deep Reinforcement Learning
-   4.Rainbow Combining Improvements in Deep Reinforcement Learning
+　　1.MineRL A Large-Scale Dataset of Minecraft Demonstrations
+  
+  　2.NeurIPS 2019 Competition The MineRL Competition on Sample Efficient Reinforcement Learning using Human Priors
+   
+  　3.Rainbow Combining Improvements in Deep Reinforcement Learning
+   
+    4.Rainbow Combining Improvements in Deep Reinforcement Learning
